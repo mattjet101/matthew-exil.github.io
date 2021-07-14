@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@500&display=swap');
 
-/* Navigation Bar */
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    color:black;
-    text-align: left;
-    font-family: "PT+Sans",sans-serif;
-    background-color:rgb(185, 185, 185);
-
-}
-
 li, a, button{
     font-family: "PT+Sans",sans-serif;
     font-weight: 600;
@@ -22,16 +9,16 @@ li, a, button{
     text-align: center;
 }
 
+/* Navigation Bar */
+
 header {
+    padding: 7px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 4px 10%;
-}
+    background-color:rgb(100, 92, 92);
 
-.logo {
-    letter-spacing: 20px;
-    font-size: 20px;
 }
 
 .nav_links {
@@ -66,3 +53,15 @@ button:hover {
 }
 
 /* Body */
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 7px;
+    color:black;
+    text-align: center;
+    font-family: "PT+Sans",sans-serif;
+    background-color:rgb(185, 185, 185);
+
+}
+
+/* Footer */
